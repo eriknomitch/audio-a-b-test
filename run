@@ -1,3 +1,4 @@
 #!/bin/zsh
 
+find ./ -iname '.DS_Store' -exec rm {} \;
 pipenv run python start-a-b-test.py
