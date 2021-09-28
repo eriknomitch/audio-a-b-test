@@ -41,11 +41,11 @@ def random_file_from_dir(dir, ext=False):
 
 def prompt_menu(message, choices):
     """
-    Show the user their choices (prefixed with A, B, C...) and prompt them for their choice.
+    Show the user their choices (prefixed with 1, 2, 3...) and prompt them for their choice.
     """
     print(message)
     for i, choice in enumerate(choices):
-        print("{}) {}".format(chr(i + 65), choice))
+        print("{}) {}".format(str(i+1), choice))
     return input("Choice: ")
 
 def audio_file_information(path, skip_print=False):

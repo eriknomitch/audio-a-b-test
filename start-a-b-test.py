@@ -20,11 +20,16 @@ def play_random_file_from_pairs(test_name):
     play_audio_file(to_play)
     clear_console_screen()
 
-    prompt_menu("Your guess", map(lambda f: audio_file_information(f, True), file_choices))
-    print()
-    print()
-    print(to_play)
+    guess = prompt_menu("Your guess", map(lambda f: audio_file_information(f, True), file_choices))
+    clear_console_screen()
 
+    if file_choices[int(guess)-1] == to_play:
+        print("Correct")
+    else:
+        print("Incorrect")
+
+    print()
+    print("File played:")
     audio_file_information(to_play)
 
 play_random_file_from_pairs("fragments_of_time")
