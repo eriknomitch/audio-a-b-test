@@ -3,11 +3,11 @@ import sys
 import mutagen
 import ipdb
 
-f = mutagen.File(musicfile)
+def audio_file_information(path, skip_print=False):
+    audio_file = mutagen.File(path)
+    info_pprint = audio_file.info.pprint()
+    if not skip_print:
+        print(info_pprint)
+    return info_pprint
 
-ipdb.set_trace()
-
-print("Python version")
-print (sys.version)
-print("Version info.")
-print (sys.version_info)
+audio_file_information("audio_pairs/test_flac.flac")
