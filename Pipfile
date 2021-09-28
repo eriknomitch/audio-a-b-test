@@ -8,6 +8,9 @@ pysimplegui = "*"
 mutagen = "*"
 ipdb = "*"
 pylint = "*"
+"mplayer.py" = "*"
+sh = "*"
+pexpect = "*"
 
 [dev-packages]
 pylint = "*"

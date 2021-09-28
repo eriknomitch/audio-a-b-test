@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "73c5ae00e4fd71a64632ef57202b6c5af5639cb0977a4865cdfd1701170035af"
+            "sha256": "91e4f9967f6686b31d20df8a72f894014940febf41aae9b53df7adbd35230e82"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -121,6 +121,14 @@
             ],
             "version": "==0.6.1"
         },
+        "mplayer.py": {
+            "hashes": [
+                "sha256:d7f0178d9ad9c802887463765e108f67da11a739df25362721059d1960de72e6",
+                "sha256:e97b16efd26401803fbff6e2e2c1b26077d93483f2a7d63343dc720a7ff263b4"
+            ],
+            "index": "pypi",
+            "version": "==0.7.2.post1"
+        },
         "mutagen": {
             "hashes": [
                 "sha256:6397602efb3c2d7baebd2166ed85731ae1c1d475abca22090b7141ff5034b3e1",
@@ -142,7 +150,7 @@
                 "sha256:0b48a55dcb3c05f3329815901ea4fc1537514d6ba867a152b581d69ae3710937",
                 "sha256:fc65a43959d153d0114afe13997d439c22823a27cefceb5ff35c2178c6784c0c"
             ],
-            "markers": "sys_platform != 'win32'",
+            "index": "pypi",
             "version": "==4.8.0"
         },
         "pickleshare": {
@@ -198,6 +206,14 @@
             ],
             "index": "pypi",
             "version": "==4.48.0"
+        },
+        "sh": {
+            "hashes": [
+                "sha256:4921ac9c1a77ec8084bdfaf152fe14138e2b3557cc740002c1a97076321fce8a",
+                "sha256:9d7bd0334d494b2a4609fe521b2107438cdb21c0e469ffeeb191489883d6fe0d"
+            ],
+            "index": "pypi",
+            "version": "==1.14.2"
         },
         "toml": {
             "hashes": [
