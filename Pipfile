@@ -5,8 +5,12 @@ name = "pypi"
 
 [packages]
 pysimplegui = "*"
+mutagen = "*"
+ipdb = "*"
+pylint = "*"
 
 [dev-packages]
+pylint = "*"
 
 [requires]
 python_version = "3.9"
